@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Alshoib button theme
+    <item android:state_pressed="true">
+        <shape>
+
+            <gradient
+                android:angle="90"
+                android:endColor="#000050"
+                android:startColor="#0000E0" />
+
+            <stroke
+                android:width="3dp"
+                android:color="#303030" />
+
+            <corners
+                android:radius="10dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape>
+
+            <gradient
+                android:angle="270"
+                android:endColor="#500000"
+                android:startColor="#E00000" />
+
+            <stroke
+                android:width="3dp"
+                android:color="#303030" />
+
+            <corners
+                android:radius="10dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+
+            <gradient
+                android:angle="270"
+                android:endColor="#1a804d"
+                android:startColor="#1a804d" />
+
+            <stroke
+                android:width="3dp"
+                android:color="#303030" />
+
+            <corners
+                android:radius="10dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+
+        </shape>
+    </item>
+
+    -->
+<!-- Alarayif button theme-->
+
+    <item android:state_pressed="true">
+        <shape>
+
+            <gradient
+                android:angle="90"
+                android:endColor="#000050"
+                android:startColor="#0000E0" />
+
+            <stroke
+                android:width="3dp"
+                android:color="#303030" />
+
+            <corners
+                android:radius="10dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape>
+
+            <gradient
+                android:angle="270"
+                android:endColor="#500000"
+                android:startColor="#E00000" />
+
+            <stroke
+                android:width="3dp"
+                android:color="#303030" />
+
+            <corners
+                android:radius="10dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+
+            <gradient
+                android:angle="135"
+                android:endColor="#cc5c1a"
+                android:centerColor="#4d2007"
+                android:startColor="#4d2007" />
+
+            <stroke
+                android:width="3dp"
+                android:color="#303030" />
+
+            <corners
+                android:radius="10dp" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+
+        </shape>
+    </item>
+</selector>

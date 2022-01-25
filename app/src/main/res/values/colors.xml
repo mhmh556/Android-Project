@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--  Alshowaib app style
+
+    <color name="colorPrimary">#d9f4ed</color>
+    <color name="ToolbarColor">#d9f4ed</color>
+    <color name="buttonColor">#1a804d</color>
+    <color name="colorPrimaryDark">#d9f4ed</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="TextviewBackgroundColor">#f1faec</color>
+    <color name="BackgroundColor">#032c23</color>
+    <color name="Black">#f4fde9</color>
+    <color name="EvenlistCell">#f2fbf9</color>
+    <color name="OddlistCell">#ffffff</color>
+    <color name="White">#ffffff</color>
+    <color name="PicTextColor">#f7deb1</color>
+
+    -->
+
+    <!--  Alarayf app style -->
+
+    <color name="colorPrimary">#582609</color>
+    <color name="colorPrimaryDark">#582609</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="ToolbarColor">#cc5c1a</color>
+    <color name="buttonColor">#cc5c1a</color>
+
+
+
+    <color name="TextviewBackgroundColor">#f1faec</color>
+    <color name="TextviewBackgroundLight">#fdf8f4</color>
+    <color name="BackgroundColor">#032c23</color>
+    <color name="Black">#000000</color>
+    <color name="EvenlistCell">#f2fbf9</color>
+    <color name="OddlistCell">#ffffff</color>
+    <color name="White">#ffffff</color>
+    <color name="PicTextColor">#f7deb1</color>
+    <color name="messagebackgroudnColor">#f7deb1</color>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppBaseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/background_dark</item>
+        <item name="colorPrimary">@color/ToolbarColor</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/buttonColor</item>
+        <item name="android:windowBackground">@color/BackgroundColor</item>
+    </style>
+</resources>

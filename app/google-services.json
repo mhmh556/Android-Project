@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "518623346377",
+    "firebase_url": "https://alarayf-a5ade.firebaseio.com",
+    "project_id": "alarayf-a5ade",
+    "storage_bucket": "alarayf-a5ade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518623346377:android:bf49243d8f9202ec",
+        "android_client_info": {
+          "package_name": "com.alarayf.alarayf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518623346377-mlkaitctukqpuvkppa1v19cqs7t7v24a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8i3hj2lZFPcB4447XL4usIIU6g7U8lQo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_tree"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+
+    android:orientation="vertical"
+    android:weightSum="100"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.alarayf.alarayf.Tree"
+    tools:showIn="@layout/activity_tree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/BackTreeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custombutton"
+            android:onClick="BackTreeBtnClicked"
+            android:text="عودة"
+            android:textColor="@color/OddlistCell"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/NodeNameLable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/BackgroundColor"
+            android:textSize="20sp" />
+
+        <ListView
+
+            android:id="@+id/mylist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/NewTree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:onClick="NewTreeBtnClicked"
+            android:text="الجديد"
+            android:textColor="@color/OddlistCell"
+            android:textSize="18sp" />
+
+
+        <Button
+
+            android:id="@+id/showHirTree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:onClick="showHirBtnClicked"
+            android:text="عرض هرمي"
+            android:textColor="@color/OddlistCell"
+            android:textSize="18sp" />
+
+
+        <Button
+
+            android:id="@+id/AddToTree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/custombutton"
+            android:onClick="AddTreeBtnClicked"
+            android:text="طلب إضافه"
+            android:textColor="@color/OddlistCell"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

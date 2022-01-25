@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.alarayf.alarayf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:name=".Customer"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_alarayf"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppBaseTheme"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventList"
+            android:label="المناسبات"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddMobil"
+            android:label="جوال العرايف"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddComments"
+            android:label="إضافة تعليق"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.Comments" />
+        </activity>
+        <activity
+            android:name=".Event_datil"
+            android:label="المناسبات"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".EventList"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.EventList" />
+        </activity>
+        <activity
+            android:name=".News"
+            android:label="الأخبار"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Comments"
+            android:label="التعليقات"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cons"
+            android:label="الأخبار"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cons_details"
+            android:label="الاخبار"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".News"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.Cons" />
+        </activity>
+        <activity
+            android:name=".News_details"
+            android:label="الاخبار"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".News"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.News" />
+        </activity>
+        <activity
+            android:name=".Pic"
+            android:label="صور تاريخية"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid"
+            android:label="@string/title_activity_vid"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Suggestions"
+            android:label="@string/title_activity_suggestions"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name=".AddEvent"
+            android:label="@string/title_activity_add_event"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Tree"
+            android:label="@string/title_activity_tree"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Instagram"
+            android:label="@string/title_activity_instagram"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Twitter"
+            android:label="@string/title_activity_twitter"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Hierarchy_Tree"
+            android:label="@string/title_activity_twitter"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.Tree" />
+        </activity>
+
+        <activity
+            android:name=".Tree_last_added_List"
+            android:label="@string/title_activity_twitter"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.Tree" />
+        </activity>
+
+        <activity
+            android:name=".Mobile_messages"
+            android:label="@string/title_activity_twitter"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.Tree" />
+        </activity>
+
+        <activity
+            android:name=".Vote"
+            android:label="@string/title_activity_vote"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alarayf.alarayf.Tree" />
+        </activity>
+
+
+        <service
+            android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+        <!-- FirebaseInstanceIdService performs security checks at runtime,
+              no need for explicit permissions despite exported="true"             -->
+        <service android:name=".MyFirebaseInstanceIDService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+
+       <!-- <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false" />
+        -->
+
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false" />
+
+    </application>
+
+</manifest>

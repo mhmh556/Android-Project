@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme.  Theme.AppCompat.Light.NoActionBar -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/buttonColor</item>
+        <item name="android:textColorPrimaryInverse">@android:color/holo_red_dark</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:titleTextStyle">@style/CustomColorTextBar</item>
+
+        <item name="android:actionBarStyle">@style/AppBaseTheme.ActionBarStyle</item>
+
+
+
+
+    </style>
+
+
+
+
+
+
+    <style name="AppBaseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@android:color/background_dark</item>
+        <item name="colorPrimary">@color/ToolbarColor</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/buttonColor</item>
+        <item name="android:windowBackground">@color/BackgroundColor</item>
+        <item name="android:titleTextStyle">@style/CustomColorTextBar</item>
+    </style>
+
+    <style name="AppBaseTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppBaseTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+    <style name="AppBaseTheme.ActionBarStyle" parent="AppBaseTheme">
+        <item name="android:titleTextStyle">@style/AppBaseTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="AppBaseTheme.ActionBar.TitleTextStyle" parent="AppBaseTheme">
+        <item name="android:textColor">@color/BackgroundColor</item>
+    </style>
+    <!--
+    <style name="Myapp" parent="AppBaseTheme">
+        <item name="colorAccent">@color/buttonColor</item>
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/BackgroundColor</item>
+        <item name="android:textColorSecondary">@color/buttonColor</item>
+        <item name="android:textColorSecondaryInverse">@color/buttonColor</item>
+        <item name="colorPrimaryDark">@color/buttonColor</item>
+
+        <item name="android:titleTextStyle">@style/CustomColorTextBar</item>
+    </style>
+    -->
+
+    <style name="CustomColorTextBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+    <!--
+   <item name="android:typeface">Times New Roman Bold.ttf</item>
+   <item name="android:layout_width">fill_parent</item>
+   <item name="android:layout_height">wrap_content</item>
+   -->
+</style>
+
+<!--
+<style name="AlarayfTheme" parent="AppBaseTheme" />
+-->
+
+</resources>
+
